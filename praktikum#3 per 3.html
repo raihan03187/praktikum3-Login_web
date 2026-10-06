@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Mahasiswa</title>
+</head>
+<body>
+
+    #soal 2 Biodata Mahasiswa
+    <h2>BIODATA MAHASISWA</h2> 
+    <form>
+        <p>
+            <label>NIM:</label><br>
+            <input type="text" name="nim">
+        </p>
+        <p>
+            <label>Nama Lengkap:</label><br>
+            <input type="text" name="nama" required>
+        </p>
+        <p>
+            <label>Email:</label><br>
+            <input type="email" name="email">
+        </p>
+        <p>
+            <label>Tanggal Lahir:</label><br>
+            <input type="date" name="tanggal_lahir">
+        </p>
+        <p>
+            <label>Jenis Kelamin:</label><br>
+            <input type="radio" id="l" name="jk" value="Laki-laki"> <label for="l">Laki-laki</label><br>
+            <input type="radio" id="p" name="jk" value="Perempuan"> <label for="p">Perempuan</label>
+        </p>
+        <input type="submit" value="SIMPAN">
+    </form>
+
+    <hr>
+
+    #soal 3 Minat Teknologi Mahasiswa
+    <h2>MINAT TEKNOLOGI MAHASISWA</h2>
+    <form>
+        <p>
+            <label>Nama:</label><br>
+            <input type="text" name="nama">
+        </p>
+        <p>
+            <label>Pilih Minat:</label><br>
+            <input type="checkbox" name="minat[]" value="Web Dev"> Web Development<br>
+            <input type="checkbox" name="minat[]" value="AI"> Artificial Intelligence<br>
+            <input type="checkbox" name="minat[]" value="Mobile Dev"> Mobile Development<br>
+            <input type="checkbox" name="minat[]" value="Game Dev"> Game Development<br>
+            <input type="checkbox" name="minat[]" value="Cyber Security"> Cyber Security
+        </p>
+        <input type="submit" value="SIMPAN">
+    </form>
+
+</body>
+</html>
